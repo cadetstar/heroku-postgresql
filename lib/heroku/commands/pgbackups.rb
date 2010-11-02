@@ -1,5 +1,3 @@
-require "pty"
-
 module Heroku::Command
   class Pgbackups < BaseWithApp
     include PgUtils
